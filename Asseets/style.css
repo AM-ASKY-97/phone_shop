@@ -1,0 +1,92 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+a
+{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+
+.container
+{
+    margin-top: 30px;
+    width: 80%;
+    margin: auto;
+    border: 1px solid black;
+}
+
+.banner
+{
+    width: 100%;
+}
+
+.banner img
+{
+    float: right;
+}
+
+.banner #h4
+{
+    float:right;
+    padding-right: 150px;
+    font-size: 20px;
+}
+
+.banner h1
+{
+    font-size:70px;
+    font-weight: bold;
+    padding:25px;
+    padding-left: 50px;
+}
+
+.menu   
+{
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    
+  }
+  
+  li a {
+    display: block;
+    text-align: center;
+    padding: 5px 40px;
+    text-decoration: none;
+    color:black;
+    border: 1px solid black;
+  }
+  
+  li a:hover {
+    background-color: gray;
+    color:white;
+    border: none;
+  }
+
+.contant
+{
+    width: 100%;
+    padding:70px;
+    display: flex;
+}
+
+
+
+/* ================================================================= FORM  =================================================================*/
+
+.form
+{
+    display: flex;
+    line-height: 35px;
+}
