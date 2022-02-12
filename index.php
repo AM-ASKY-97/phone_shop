@@ -10,6 +10,8 @@
     $row = mysqli_num_rows($query_run);
 ?>
 
+<!--Html Code-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
